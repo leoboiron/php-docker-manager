@@ -1,0 +1,21 @@
+{
+    "name": "leoboiron/php-docker-manager",
+    "description": "A PHP library to wrap Docker container management (start/stop).",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+      {
+        "name": "Léo Boiron",
+        "email": "leo.boiron@gmail.com"
+      }
+    ],
+    "require": {
+      "php": ">=8.2",
+      "symfony/http-client": "^7.2"
+    },
+    "autoload": {
+      "psr-4": {
+        "PhpDockerManager\\": "src/"
+      }
+    }
+  }
